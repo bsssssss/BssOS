@@ -34,5 +34,6 @@ RRec {
 		recorder.prepareForRecord(this.fullPath, numChannels);
 		s.sync;
 		recorder.record(duration: duration);
+		s.sync;
 	}
 }
